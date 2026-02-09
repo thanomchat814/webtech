@@ -1,3 +1,6 @@
+body {
+    background-color: #f0fdf4;
+}
 .logo {
     color: #166534;
     font-size: 2rem;
@@ -15,4 +18,35 @@
 .new {
     background-color: #dcfce7; /* เขียวอ่อน */
     color: #166534;            /* เขียวเข้ม */
+}
+.hero-section {
+    background: linear-gradient(
+        135deg,
+        #15803d,         /* เขียวเข้ม */
+        #22c55e          /* เขียวสด */
+    );
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+/* Header — เขียวเข้มทึบ */
+.site-header {
+    background-color: #166534;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+/* ส่วนเมนู — เขียวอ่อน */
+#menu {
+    background-color: #f0fdf4;
+    padding: 3rem 2rem;
+}
+
+/* Footer — เขียวเข้ม เหมือน Header */
+.site-footer {
+    background-color: #14532d;
+    color: rgba(255, 255, 255, 0.8);   /* ขาว 80% */
+    text-align: center;
+    padding: 2rem;
 }
