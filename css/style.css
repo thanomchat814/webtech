@@ -1,0 +1,18 @@
+.logo {
+    color: #166534;
+    font-size: 2rem;
+}
+.price {
+    color: #1519dd;
+    font-weight: bold;
+}
+.bestseller {
+    background-color: #fef9c3; /* เหลืองอ่อน */
+    color: #854d0e;            /* น้ำตาลทอง */
+}
+
+/* Badge NEW — สีเขียวอ่อน */
+.new {
+    background-color: #dcfce7; /* เขียวอ่อน */
+    color: #166534;            /* เขียวเข้ม */
+}
